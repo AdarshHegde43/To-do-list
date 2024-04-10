@@ -1,0 +1,83 @@
+*{
+    font-family : monospace , sans-serif ;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #6699ff 0%, #ff99cc 77%);
+    background-repeat: no-repeat; /* Ensure the gradient is not repeated */
+}
+
+
+.container {
+    align-items: center;
+}
+
+.titleText {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.search{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.search form{
+    display : flex ;
+    width : 40% ;
+    height: 100%;
+}
+
+#text {
+    flex : 1;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    font-size: 15px;
+    height: 100%; /* Match the height of the parent container */
+    padding: 5px; 
+    box-sizing: border-box; /*Include padding and border in the element's total width and height */
+    margin-right: -2px;
+    border : 2px solid black;
+}
+
+#button {
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size : 15px;
+    height : 100% ;
+    background-color : #FFF7E7;
+    border : 2px solid black;
+} 
+
+ul {
+    list-style-type: none;
+}
+#unorderedList{
+    padding: 0; /* Remove default padding */
+}
+
+#unorderedList li{
+    text-align: center;
+    margin: 1%;
+}
+
+.deleteButton {
+    background-color: #ff6347; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add padding */
+    margin-left: 10px; /* Add left margin */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.deleteButton:hover {
+    background-color: #dc143c; /* Darker red background color on hover */
+}
